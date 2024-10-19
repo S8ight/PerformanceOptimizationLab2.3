@@ -77,7 +77,7 @@ public class Main {
             }
 
             long endTime = System.currentTimeMillis();
-            System.out.println("Execution time: " + (endTime - startTime) + " мс");
+            System.out.println("Execution time: " + (endTime - startTime) + " ms");
 
         } catch (IOException e) {
             System.err.println("File reading error: " + e.getMessage());
